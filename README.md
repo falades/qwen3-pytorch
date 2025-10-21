@@ -2,7 +2,7 @@
 
 A minimal PyTorch re-implementation of `Qwen3`
 
-## 🦋 Quick Start
+##  Quick Start
 
 I recommend using `uv` and creating a virtual environment:
 
@@ -24,7 +24,7 @@ Usage:
 python run.py --prompt "Give me a short introduction to large language models."
 ```
 
-The default model is Qwen3-0.6B-Base to pass other qwen3 based models just pass the huggingface repo id as a flag
+The default model is Qwen3-0.6B-Base. To pass other qwen3 based models just pass the huggingface repo id as a flag
 
 ```bash
 python run.py --prompt "Give me a short introduction to large language models." --repo_id "Qwen/Qwen3-1.7B-Base"

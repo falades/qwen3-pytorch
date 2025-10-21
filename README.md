@@ -13,6 +13,8 @@ pip install uv && uv venv
 source .venv/bin/activate # Linux/macOS
 .venv\Scripts\activate # Windows
 
+# install torch
+uv pip install install torch==2.9.0 --index-url https://download.pytorch.org/whl/cu126
 # install dependencies
 uv pip install -r requirements.txt
 ```
